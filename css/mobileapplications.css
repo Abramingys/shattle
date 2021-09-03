@@ -1,0 +1,30 @@
+.mobileapplications {
+    background-color: var(--white);
+    padding: 110px 0;
+}
+
+.mobileapplications__title{
+    max-width: 740px;
+    margin: 0 auto;
+    text-align: center;
+}
+.mobileapplications__text{
+    max-width: 730px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0 60px;
+}
+
+.mobileapplications_list {
+    display: flex;
+}
+.mobileapplications_list_item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mobileapplications__img{
+    
+}
+.mobileapplications__button{
+    margin: 60px auto 0;
+}

@@ -1,0 +1,37 @@
+.projects{
+    background-color: var(--grey-1);
+    padding: 100px 0 60px;
+}
+
+.projects__box{
+    display: flex;
+    gap: 120px;
+}
+
+.projects__title{
+    max-width: 424px;
+    padding: 40px 0;
+}
+.projects__text{
+    max-width: 480px;
+    padding: 0 0 30px 0;
+}
+.projects__content a{
+    text-decoration: underline;
+    color: var(--blue);
+}
+.projects__img{
+    padding: 0 0 80px 0;
+}
+
+
+
+.projects__list {
+    padding: 80px 0 0 0;
+    border-top: 1px solid var(--grey-3);
+    display: flex;
+    justify-content: space-around;
+
+}
+.projects__list_item {
+}

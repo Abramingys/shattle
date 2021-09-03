@@ -1,0 +1,44 @@
+.header {
+    height: 100vh;
+    background: url(../img/footerback.jpeg)center/ cover no-repeat;
+    color: var(--white);
+    padding: 40px 0 350px;
+    box-sizing: border-box;
+}
+
+.header__nav {
+    border-bottom: 1px solid var(--grey-2);
+}
+
+.header__list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 0 0 40px 0;
+}
+.header__list_item {
+}
+
+.header__list_link {
+    color: var(--white);
+    line-height: 20px;
+    padding: 0 0 40px 0;
+}
+
+.header__list_link:hover{
+    border-bottom: 2px solid var(--white);
+}
+
+.header__content {
+}
+
+.header__title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+
+}
+.header__button{
+    margin: 50px auto 0;
+}
