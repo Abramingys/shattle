@@ -1,0 +1,44 @@
+.videoworks {
+    padding: 68px 0 0;
+    background: url(../img/videoworks.png)0 0 / 100% 80%no-repeat;
+    
+}
+
+.videoworks__title{
+    color: var(--white);
+}
+
+.videoworks__text{
+    color: var(--white);
+}
+
+.videoworks__button{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: Transparent;
+    max-width: 300px;
+    max-height: 100px;
+    border: 1px solid var(--white);
+    border-radius: 200px;
+    transform: translate(-50%,50%);
+}
+.videoworks__button span{
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+
+}
+
+.videworks__image{
+    position: relative;
+    margin: 68px auto 0;
+    max-width: 970px;
+
+}
+hr{
+    margin: 80px 0 0;
+}

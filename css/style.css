@@ -5,14 +5,25 @@ html {
     font-size: 16px;
     color: var(--black);
     height: 100%;
+    line-height: 25px;
+}
+
+* {
+    box-sizing: border-box;
+
 }
 img {
     max-width: 100%;
-    display: block;
+    
 }
 
-h1, h2, h3, ul, li {
+h1, h2, h3, ul, li,p {
     margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 li{
@@ -25,19 +36,22 @@ span{
     font-size: 36px;
     line-height: 53px;
     color: var(--black);
-
+}
+button{
+    cursor: pointer;
 }
 .page__title {
-    font-size: 16px;
+    font-weight: 500;
     line-height: 20px;
-    text-align: center;
-    padding: 220px 0 20px;
+    font-size: 16px;
+    margin: 0 0 20px;
 }
 .page__title_h2{
     font-weight: bold;
-    font-size: 36px;
-    line-height: 53px;
+    font-size: 28px;
+    line-height: 42px;
     color: var(--black);
+    margin: 0 0 36px;
 }
 
 .page__title_h3 {
@@ -47,27 +61,30 @@ span{
     color: var(--black);
 }
 .page__button {
-    display: block;
-    box-sizing: border-box;
-    width: 200px;
+    line-height: 20px;
     background-color: var(--blue);
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
-    text-align: center;
+    padding: 12px 36px 12px;
     color: var(--white);
-    padding: 14px 36px;
+    text-decoration: none;
+    display: inline-block;
 }
+.container__button{
+    display: flex;
+    justify-content: center;
+ }
 
 .page__text{
     font-size: 16px;
     line-height: 24px;
     color: var(--grey);
 }
+
 .page__text_small{
     font-size: 14px;
     line-height: 22px;
     color: var(--grey);
-    max-width: 222px;
 
 }
 
@@ -84,20 +101,38 @@ span{
 }
 
 .container {
-    max-width: 1110px;
+    max-width: 1158px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
-.container-small {
-    max-width: 540px;
+.container__small {
+    max-width: 740px;
     margin: 0 auto;
     text-align: center;
+    padding: 0 16px;
 }
 
-.section-title{
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 53px;
-    color: var(--black);
+@media (min-width: 768px) {
+    .container {
+        padding: 0 24px;
+
+    }
+
+    .page__title_h2{
+        font-size:36px;
+        line-height: 53px;
+
+    }
+
 }
 
+.primary__link{
+    color: var(--blue);
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.primary__link:hover{
+    text-decoration: none;
